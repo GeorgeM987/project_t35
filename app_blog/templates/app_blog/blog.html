@@ -1,0 +1,41 @@
+{% extends 'app_t35/main.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+    {% if new_user %}
+        <div class="container" style="float: left;">
+            <a class="btn btn-primary btn-sm mt-1 mb-1" href="{% url 'app_blog:blog_create' user.id %}"><h5>C'mon {{ request.user.username }}, don't be shy! Create Your First Blog Post!</h5></a>
+        </div>
+    {% endif %}
+    <br>
+    <br>
+    {% for post in posts %}
+    <br>
+        <div class="container">
+            <article class="media content-section">
+                <img class="rounded-circle account-img" src="{{ post.author.profile.image.url }}" alt="Image could not be uploaded!">
+                <div class="card-body media-body">
+                    <div class="article-metadata">
+                        <a class="mr-2" href="{% url 'app_blog:blog_user_detail' post.id %}">{{ post.author }}</a>
+                        <small class="text-muted">{{ post.date_posted|date:"d F Y" }}</small>
+                    </div>
+                    <div class="article-metadata">
+                        {% if post.author == request.user %}
+                            <div>
+                                <a class="btn btn-primary btn-sm mt-1 mb-1" href="{% url 'app_blog:blog_create' post.id %}">Create New Post</a>
+                                <a class="btn btn-primary btn-danger btn-sm mt-1 mb-1" href="{% url 'app_blog:blog_delete' post.id %}">Delete</a>
+                            </div>
+                        {% endif %}
+                    </div>
+                    <h2><a class="article-title" href="{% url 'app_blog:blog_detail' post.id %}">{{ post.title }}</a></h2>
+                    <p class="article-content">{{ post.content|safe }}</p>
+                </div>
+            </article>
+        </div>
+    <br>
+    {% endfor %}
+
+{% endblock %}

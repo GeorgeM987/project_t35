@@ -1,0 +1,56 @@
+{% extends 'app_t35/main.html' %}
+{% load static %}
+
+{% block content %}
+
+<br>
+<div class="container" style="min-width: 100vw;">
+	<div class="card-deck">
+		<div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="#"><h3>Last 10 Customers:</h3></a>
+			<table class="table table-sm">
+				<tr>
+					<th>Name</th>
+					<th>Phone</th>
+					<th>Email</th>
+				</tr>
+				{% for customer in customers %}
+					<tr>
+						<td><a class="btn btn-sm btn-info" href="#">View</a></td>
+						<td>{{ customer.name }}</td>
+						<td>{{ customer.phone }}</td>
+						<td>{{ customer.email }}</td>
+					</tr>
+				{% endfor %}
+			</table>
+		</div>
+		<br>
+	
+		<div class="card card-body">
+			<a class="btn btn-primary  btn-sm btn-block" href="#"><h3>Last 10 Orders:</h3></a>
+			<table class="table table-sm">
+				<tr>
+					<th>Name</th>
+					<th>Date Orderd</th>
+					<th>From</th>
+					<th>To</th>
+					<th>Rating</th>
+				</tr>
+	
+				{% for order in orders %}
+					<tr>
+						<td>{{ order.customer.name }}</td>
+						<td>{{ order.order_date }}</td>
+						<td>{{ order.location.from_city }}</td>
+						<td>{{ order.location.to_city }}</td>
+						<td>{{ order.location.rating }}</td>
+					</tr>
+				{% endfor %}		
+			</table>
+		</div>
+	</div>
+</div>
+
+
+
+{% endblock %}

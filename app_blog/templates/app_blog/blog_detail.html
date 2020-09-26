@@ -1,0 +1,31 @@
+{% extends 'app_t35/main.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+<br>
+    <div class="container">
+        <article class="media content-section">
+            <img class="rounded-circle  account-img" src="{{ user_post.author.profile.image.url }}" alt="Image Missing!">
+            <div class="card-body media-body">
+                <div class="article-metadata">
+                    <a class="mr-2" href="{% url 'app_blog:blog_user_detail' user_post.id %}">{{ user_post.author }}</a>
+                    <small class="text-muted">{{ user_post.date_posted|date:"d F Y, G:i" }}</small>
+                    <p class="article-metadata">
+                    {% if user_post.author == request.user %}
+                        <div>
+                            <a class="btn btn-outline-info btn-sm mt-1 mb-1" href="{% url 'app_blog:blog_update' user_post.id %}">Update</a>
+                            <a class="btn btn-primary btn-sm mt-1 mb-1" href="{% url 'app_blog:blog' %}">Cancel</a>
+                        </div>
+                    {% endif %}
+                </div>
+                <h2 class="article-title">{{ user_post.title }}</h2>
+                <p class="article-content">{{ user_post.content|safe }}</p>
+            </div>
+        </article>
+    </div>
+<br>
+
+{% endblock %}

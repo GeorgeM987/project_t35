@@ -1,0 +1,23 @@
+{% extends 'app_t35/main.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+<br>
+<div class="card card-body container">
+    <div class="card-deck container">
+        <h5 style="text-align: left;">{{ user.username }}, are you sure you want to delete the post?</h5>
+        <div class="container">
+            <form action="" method="POST">
+                {% csrf_token %}
+                <a class="btn btn-primary btn-sm mt-1 mb-1" href="{% url 'app_blog:blog' %}">Cancel</a>
+                <input class="btn btn-primary btn-danger btn-sm mt-1 mb-1" type="submit" value="Confirm">
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+
+{% endblock %}

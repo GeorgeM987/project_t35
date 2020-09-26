@@ -1,0 +1,138 @@
+1596827238439	geckodriver	INFO	Listening on 127.0.0.1:62507
+1596827241523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\MGA\\AppData\\Local\\Temp\\rust_mozprofileM8S0x6"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596827244154	Marionette	INFO	Listening on port 62515
+1596827244215	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\MGA\\AppData\\Local\\Temp\\rust_mozprofilesUe3I3"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596827352412	Marionette	INFO	Listening on port 62599
+1596827352819	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\MGA\\AppData\\Local\\Temp\\rust_mozprofileLxmMTV"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596827641139	Marionette	INFO	Listening on port 62714
+1596827641386	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+96827670214	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\MGA\\AppData\\Local\\Temp\\rust_mozprofilesY9tEk"
+*** You are running in headless mode.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596827673122	Marionette	INFO	Listening on port 62780
+1596827673398	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: WebGL warning: <Create>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.EiaZTp9H2YA.O/m=sc2,per,mo,lp,ti,ds,stx,bom,b/rt=j/d=1/rs=ACT90oH8uDQ6oCDQjfQX7Z5UNybRpCcDUQ, line 2110: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+NFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MGA\\AppData\\Local\\Temp\\rust_mozprofileE5nCql"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1596827942717	Marionette	INFO	Listening on port 62870
+1596827943192	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1596827958551	Marionette	INFO	Stopped listening on port 62870
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1596827991668	geckodriver	INFO	Listening on 127.0.0.1:62927
+1596827994701	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MGA\\AppData\\Local\\Temp\\rust_mozprofileI42rMR"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1596827997572	Marionette	INFO	Listening on port 62936
+1596827997887	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1451 > injectedScript, line 7421: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1596828010324	Marionette	INFO	Stopped listening on port 62936
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601122938531	geckodriver	INFO	Listening on 127.0.0.1:55193
+1601122941615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\MGA\\AppData\\Local\\Temp\\rust_mozprofile264Ztj"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601122944507	Marionette	INFO	Listening on port 55202
+1601122944858	Marionette	WARN	TLS certificate errors will be ignored for this session
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: https://www.google.com/maps/ line 1489 > injectedScript, line 7794: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1601122958174	Marionette	INFO	Stopped listening on port 55202
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -1,0 +1,93 @@
+{% load static %}
+
+<header class="my_navbar">
+  <nav class="navbar navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="blazon">
+            <img width="40px" height="35px" src="{% static '/images/blazon.jpeg' %}">
+          </div>
+          <a class="navbar-brand" href="{% url 'app_t35:about' %}">About</a>
+          {% if request.user.is_staff %}
+            <a class="navbar-brand" href="{% url 'app_t35:dashboard' %}">Dashboard</a>
+          {% endif %}
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="{% url 'app_t35:homepage' %}">Home <span class="sr-only">(current)</span></a>
+              </li>
+              {% if request.user.is_authenticated %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'app_t35:price' %}">Pricing</a>
+                </li>
+              {% endif %}
+              {% if request.user.is_authenticated %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'app_users:customer' %}">Customer</a>
+                </li>
+              {% endif %}
+              {% if request.user.is_anonymous %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'app_users:users' %}">Users</a>
+                </li>
+              {% endif %}
+              {% if request.user.is_authenticated %}
+                <li class="nav-item">
+                  <a class="nav-link" href="{% url 'app_blog:blog' %}">Blog</a>
+                </li>
+              {% endif %}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  More...
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="https://www.bbc.co.uk/weather" target="_blank">Weather</a>
+                  <a class="dropdown-item" href="https://www.fleetnews.co.uk/costs/fuel-prices/" target="_blank">Fuel Price</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="user_name_status">
+          <span class="hello-msg">Hello, {{request.user}}</span>
+          {% if request.user.is_authenticated %}
+            <span><a class="btn btn-secondary" href="{% url 'app_users:logout' %}">Logout</a></span>
+          {% else %}
+            <span><a class="btn btn-secondary" href="{% url 'app_users:login' %}">Login</a></span>
+          {% endif %}
+        </div>
+  </nav>
+</header>
+
+<style>
+
+  .my_navbar{
+    border-bottom: 1px solid black;
+    background-color: rgb(51, 51, 51);
+  }
+  
+  .bg-light{
+    border-radius: 10px;
+  }
+
+  .user_name_status{
+    color: rgb(255, 255, 255);
+    min-width: 150px;
+    margin-right: 0px;
+    padding: 5px 0px;
+  }
+
+  .hello-msg{
+    font-size: 18px;
+    padding: 2px 5px;
+    margin-left: 5px;
+  }
+
+  .btn-secondary{
+    font-size: 20px;
+    padding: 2px 5px;
+  }
+
+</style>

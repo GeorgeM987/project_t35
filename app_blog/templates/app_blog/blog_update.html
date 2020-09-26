@@ -1,0 +1,31 @@
+{% extends 'app_t35/main.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+
+<br>
+<div class="card card-body container">
+    <div class="card-deck">
+        <img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
+        <h5 style="text-align: left;">{{ user.username }}:</h5>
+        <div class="card card-body">
+            <form action="" method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-4">If you wish to update your blog-post:</legend>
+                    {{ blog_updates.media }}
+                    {{ blog_updates|crispy }}
+                </fieldset>
+                <div class="form-group">
+                    <button class="btn btn-outline-info btn-sm mt-1 mb-1" type="submit">Update Post</button>
+                    <a class="btn btn-primary btn-sm mt-1 mb-1" href="{% url 'app_blog:blog' %}">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<br>
+
+{% endblock %}

@@ -1,0 +1,46 @@
+{% extends 'app_t35/main.html' %}
+{% load static %}
+
+
+{% block content %}
+
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <h1 class="display-4">Welcome,</h1>
+      <p class="lead">
+        <article>
+          <h3 style="padding: 0px 30px;">
+            Please provide us with your phone and email during registration so we can prepare your profil page 
+            with these details as well... but feel free to skip those fields for now if you so choose as 
+            you'll get the chance to fill or update them later. Thanks.
+          </h3>      
+        </article>    
+      </p>
+    </div>
+    <div class="container">
+      <div class="card-deck mb-3 text-center">
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">New</h4>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title pricing-card-title">
+                If you don't have an account please:
+            </h5>
+            <a type="button" class="btn btn-lg btn-block btn-primary" href="{% url 'app_users:register' %}">Register</a>
+          </div>
+        </div>
+        <div class="card mb-4 shadow-sm">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-normal">Usual</h4>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title pricing-card-title">
+                If you have an account please:
+            </h5>
+            <a type="button" class="btn btn-lg btn-block btn-primary" href="{% url 'app_users:login' %}">Login</a>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+{% endblock %}

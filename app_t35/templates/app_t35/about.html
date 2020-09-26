@@ -1,0 +1,56 @@
+{% extends 'app_t35/main.html' %}
+{% load static %}
+
+{% block content %}
+
+<main class="about" role="main">
+    <div class="blazon-bg">
+      <img width="250px" height="200px" src="{% static '/images/blazon.jpeg' %}" style="border-radius: 10px;">
+    </div>
+    <div class="cover-container d-flex w-100 h-0 p-3 mx-auto flex-column">
+        <div class="inner cover">
+            <h1 class="cover-heading">-The Mission-</h1>
+            <h2 class="cover">Offer a profesional experience from here to <a href="{% url 'app_t35:price' %}">anywhere</a> in the country...</h2>
+            <p class="lead">
+                <article>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper, eros et ultricies dictum, tortor nisi accumsan erat, id aliquet sapien ipsum non lorem. Aenean tellus nisl, malesuada non nulla nec, malesuada venenatis erat. Etiam ac neque faucibus, tincidunt purus id, posuere nisi. Praesent egestas pulvinar maximus. Cras nec ornare ipsum. Pellentesque vel lorem nec velit mattis pulvinar vitae id quam. Integer nulla diam, aliquet quis ex sed, pharetra tristique eros. Quisque maximus tortor massa, in dapibus ipsum fringilla eget.</h5>
+                </article>
+                <article>
+                    <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper, eros et ultricies dictum, tortor nisi accumsan erat, id aliquet sapien ipsum non lorem. Aenean tellus nisl, malesuada non nulla nec, malesuada venenatis erat. Etiam ac neque faucibus, tincidunt purus id, posuere nisi. Praesent egestas pulvinar maximus. Cras nec ornare ipsum. Pellentesque vel lorem nec velit mattis pulvinar vitae id quam. Integer nulla diam, aliquet quis ex sed, pharetra tristique eros. Quisque maximus tortor massa, in dapibus ipsum fringilla eget.</h5>
+                </article>
+                {% if request.user.is_anonymous %}
+                    <a href="{% url 'app_users:users' %}" class="btn btn-lg btn-secondary">Sign Up</a>
+                {% endif %}
+            </p>
+        </div>
+    </div>
+</main>
+
+<style>
+
+    .about{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+        text-align: center;
+        padding: 100px 20px;
+        color: rgb(251, 251, 251);
+        background-color: rgb(51, 51, 51);
+    }
+
+    .cover-heading{
+        font-size: 48px;
+        margin-bottom: 5px;
+    }
+
+    .lead{
+        padding: 25px;
+    }
+
+    article{
+        padding: 25px;
+    }
+
+</style>
+
+
+{% endblock %}

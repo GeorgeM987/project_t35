@@ -1,0 +1,70 @@
+{% extends 'app_t35/main.html' %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<br>
+	<div class="col-md" style="padding: 10px 25px;">
+		<div class="card-deck">
+			<div class="card card-body card-deck">
+				<div class="card-deck">
+					<img class="rounded-circle account-img" src="{{ user.profile.image.url }}">
+					<h5 style="text-align: left;">{{ user.username }}:</h5>
+					<div class="card card-body">
+						<p style="text-align: left;">Email: {{ user.email }}</p>
+						<p style="text-align: left;">Phone: {{ user.profile.phone }}</p>
+						<hr>
+						<form method="POST" enctype="multipart/form-data">
+							{% csrf_token %}
+							<fieldset class="form-group">
+								<legend class="border-bottom mb-4">If you wish to update your details:</legend>
+								{{ user_update_form|crispy }}
+								{{ profile_update_form|crispy }}
+							</fieldset>
+							<div class="form-group">
+								<button class="btn btn-outline-info  btn-sm btn-block" style="width: 150px; align-self: center;" type="submit">Update Details</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="card card-body">
+					<form method="get">
+						{{ my_filter.form }}
+						<button class="btn btn-primary" type="submit">Search</button>
+					</form>
+				</div>
+				<div class="card card-body" style="padding: 25px 5px;">
+					<h3 style="padding-bottom: 2px;">My Orders: {{ order_count }}</h3>
+					<table class="table table-sm">
+						<tr>
+							<th>Ordered Date</th>
+							<th>From</th>
+							<th>To</th>
+							<th>Weight</th>
+							<th>Volume</th>
+							<th>Update</th>
+							<th>Remove</th>
+						</tr>
+
+						{% for order in orders %}
+						<tr>
+							<td>{{ order.order_date }}</td>
+							<td>{{ order.location.from_city }}</td>
+							<td>{{ order.location.to_city }}</td>
+							<td>{{ order.weight }}</td>
+							<td>{{ order.volume|floatformat:1 }}</td>
+							<td><a class="btn btn-sm btn-info" href="#">Update</a></td>
+							<td><a class="btn btn-sm btn-danger" href="#">Remove</a></td>
+						</tr>
+						{% endfor %}
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+<br>
+
+{% endblock %}
